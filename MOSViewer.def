@@ -1,0 +1,41 @@
+;--------------------------------------------------------------------------------------------------------
+; Directory Opus Viewer Plugin for Masm - fearless
+;
+; MOSViewer.def - Export definition file for your plugin
+;
+;--------------------------------------------------------------------------------------------------------
+
+LIBRARY MOSViewer
+EXPORTS ; Main plugin exports
+        ;
+        DVP_Init                  
+        ;DVP_InitEx                
+        ;DVP_USBSafe               
+        ;DVP_Uninit                
+        DVP_IdentifyA             
+        ;DVP_IdentifyW             
+        ;DVP_IdentifyFileA         
+        ;DVP_IdentifyFileW         
+        ;DVP_IdentifyFileStreamA   
+        ;DVP_IdentifyFileStreamW   
+        DVP_IdentifyFileBytesA    
+        ;DVP_IdentifyFileBytesW    
+        DVP_LoadBitmapA           
+        ;DVP_LoadBitmapW           
+        ;DVP_LoadBitmapStreamA     
+        ;DVP_LoadBitmapStreamW     
+        ;DVP_LoadTextA             
+        ;DVP_LoadTextW             
+        ;DVP_ShowPropertiesA       
+        ;DVP_ShowPropertiesW       
+        ;DVP_ShowPropertiesStreamA 
+        ;DVP_ShowPropertiesStreamW 
+        ;DVP_CreateViewer          		
+        ;DVP_Configure             		
+        ;DVP_About                 		
+        ;DVP_GetFileInfoFileA      		
+        ;DVP_GetFileInfoFileW      		
+        ;DVP_GetFileInfoFileStreamA		
+        ;DVP_GetFileInfoFileStreamW		
+		
+		

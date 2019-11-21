@@ -1,0 +1,4 @@
+#define MANIFEST 						24
+1						MANIFEST  DISCARDABLE "MOSViewer.xml"
+100						ICON      DISCARDABLE "Images/mos_large.ico"
+101						ICON      DISCARDABLE "Images/mos_small.ico"
